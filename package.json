@@ -1,6 +1,6 @@
 {
   "name": "expo-stellar-sdk",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A wrapped Stellar SDK that works with managed Expo apps",
   "main": "index.js",
   "scripts": {
