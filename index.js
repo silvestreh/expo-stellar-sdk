@@ -1,4 +1,4 @@
-import './shim';
+import 'node-libs-react-native/globals';
 import StellarSDK from 'stellar-sdk';
 import * as Random from 'expo-random';
 

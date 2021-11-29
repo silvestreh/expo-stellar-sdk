@@ -1,7 +1,7 @@
 {
   "name": "expo-stellar-sdk",
   "version": "0.0.0",
-  "description": "A wrapped Stellar SDK that works with managed Expo apps",
+  "description": "A wrapped Stellar SDK that works in managed Expo apps",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
@@ -24,42 +24,11 @@
   },
   "homepage": "https://github.com/silvestreh/expo-stellar-sdk#readme",
   "dependencies": {
-    "@tradle/react-native-http": "^2.0.1",
-    "buffer": "^4.9.2",
-    "events": "^1.1.1",
-    "https-browserify": "0.0.1",
-    "process": "^0.11.10",
-    "readable-stream": "^1.0.33",
-    "stellar-sdk": "^9.1.0",
-    "stream-browserify": "^1.0.0",
-    "url": "^0.10.3",
-    "util": "^0.10.4",
-    "vm-browserify": "0.0.4"
+    "node-libs-react-native": "^1.2.1"
   },
   "peerDependencies": {
-    "expo-random": "^12.0.1"
-  },
-  "react-native": {
-    "http": "@tradle/react-native-http",
-    "https": "https-browserify",
-    "_stream_transform": "readable-stream/transform",
-    "_stream_readable": "readable-stream/readable",
-    "_stream_writable": "readable-stream/writable",
-    "_stream_duplex": "readable-stream/duplex",
-    "_stream_passthrough": "readable-stream/passthrough",
-    "stream": "stream-browserify",
-    "vm": "vm-browserify"
-  },
-  "browser": {
-    "http": "@tradle/react-native-http",
-    "https": "https-browserify",
-    "_stream_transform": "readable-stream/transform",
-    "_stream_readable": "readable-stream/readable",
-    "_stream_writable": "readable-stream/writable",
-    "_stream_duplex": "readable-stream/duplex",
-    "_stream_passthrough": "readable-stream/passthrough",
-    "stream": "stream-browserify",
-    "vm": "vm-browserify"
+    "expo-random": "^12.0.1",
+    "stellar-sdk": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
