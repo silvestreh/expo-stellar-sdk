@@ -9,6 +9,7 @@
     "release:patch": "npm version patch && npm run publish",
     "release:minor": "npm version minor && npm run publish",
     "release:major": "npm version major && npm run publish",
+    "postpublish": "npm publish",
     "test": "echo Nope"
   },
   "repository": {
